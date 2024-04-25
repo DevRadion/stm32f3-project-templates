@@ -69,366 +69,318 @@ include CMakeFiles/base-project.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/base-project.elf.dir/flags.make
 
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj: CMakeFiles/base-project.elf.dir/flags.make
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj: /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj -MF CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj.d -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj -c /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c > CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.i
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.s
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj: CMakeFiles/base-project.elf.dir/flags.make
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj: /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj -MF CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj.d -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj -c /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c > CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.i
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.s
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj: CMakeFiles/base-project.elf.dir/flags.make
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj: /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj -MF CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj.d -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj -c /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c > CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.i
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.s
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj: CMakeFiles/base-project.elf.dir/flags.make
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj: /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj -MF CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj.d -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj -c /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c > CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.i
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.s
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj: CMakeFiles/base-project.elf.dir/flags.make
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj: /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj -MF CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj.d -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj -c /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c > CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.i
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.s
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj: CMakeFiles/base-project.elf.dir/flags.make
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj: /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj -MF CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj.d -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj -c /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c > CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.i
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.s
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj: CMakeFiles/base-project.elf.dir/flags.make
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj: /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj -MF CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj.d -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj -c /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c > CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.i
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.s
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj: CMakeFiles/base-project.elf.dir/flags.make
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj: /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj -MF CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj.d -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj -c /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c > CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.i
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.s
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj: CMakeFiles/base-project.elf.dir/flags.make
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj: /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj -MF CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj.d -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj -c /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c > CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.i
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.s
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj: CMakeFiles/base-project.elf.dir/flags.make
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj: /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj -MF CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj.d -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj -c /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c > CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.i
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.s
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj: CMakeFiles/base-project.elf.dir/flags.make
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj: /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj -MF CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj.d -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj -c /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c > CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.i
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.s
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj: CMakeFiles/base-project.elf.dir/flags.make
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj: /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj -MF CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj.d -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj -c /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c > CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.i
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.s
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj: CMakeFiles/base-project.elf.dir/flags.make
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj: /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj -MF CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj.d -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj -c /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c > CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.i
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.s
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj: CMakeFiles/base-project.elf.dir/flags.make
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj: /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj -MF CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj.d -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj -c /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c > CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.i
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.s
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj: CMakeFiles/base-project.elf.dir/flags.make
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj: /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj -MF CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj.d -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj -c /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c > CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.i
-
-CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c -o CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.s
-
-CMakeFiles/base-project.elf.dir/Src/main.c.obj: CMakeFiles/base-project.elf.dir/flags.make
-CMakeFiles/base-project.elf.dir/Src/main.c.obj: /home/radion/CLionProjects/stm32/base-project/Src/main.c
-CMakeFiles/base-project.elf.dir/Src/main.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/base-project.elf.dir/Src/main.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/Src/main.c.obj -MF CMakeFiles/base-project.elf.dir/Src/main.c.obj.d -o CMakeFiles/base-project.elf.dir/Src/main.c.obj -c /home/radion/CLionProjects/stm32/base-project/Src/main.c
-
-CMakeFiles/base-project.elf.dir/Src/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/Src/main.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/Src/main.c > CMakeFiles/base-project.elf.dir/Src/main.c.i
-
-CMakeFiles/base-project.elf.dir/Src/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/Src/main.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/Src/main.c -o CMakeFiles/base-project.elf.dir/Src/main.c.s
-
-CMakeFiles/base-project.elf.dir/Src/stm32f3xx_hal_msp.c.obj: CMakeFiles/base-project.elf.dir/flags.make
-CMakeFiles/base-project.elf.dir/Src/stm32f3xx_hal_msp.c.obj: /home/radion/CLionProjects/stm32/base-project/Src/stm32f3xx_hal_msp.c
-CMakeFiles/base-project.elf.dir/Src/stm32f3xx_hal_msp.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/base-project.elf.dir/Src/stm32f3xx_hal_msp.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/Src/stm32f3xx_hal_msp.c.obj -MF CMakeFiles/base-project.elf.dir/Src/stm32f3xx_hal_msp.c.obj.d -o CMakeFiles/base-project.elf.dir/Src/stm32f3xx_hal_msp.c.obj -c /home/radion/CLionProjects/stm32/base-project/Src/stm32f3xx_hal_msp.c
-
-CMakeFiles/base-project.elf.dir/Src/stm32f3xx_hal_msp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/Src/stm32f3xx_hal_msp.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/Src/stm32f3xx_hal_msp.c > CMakeFiles/base-project.elf.dir/Src/stm32f3xx_hal_msp.c.i
-
-CMakeFiles/base-project.elf.dir/Src/stm32f3xx_hal_msp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/Src/stm32f3xx_hal_msp.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/Src/stm32f3xx_hal_msp.c -o CMakeFiles/base-project.elf.dir/Src/stm32f3xx_hal_msp.c.s
-
-CMakeFiles/base-project.elf.dir/Src/stm32f3xx_it.c.obj: CMakeFiles/base-project.elf.dir/flags.make
-CMakeFiles/base-project.elf.dir/Src/stm32f3xx_it.c.obj: /home/radion/CLionProjects/stm32/base-project/Src/stm32f3xx_it.c
-CMakeFiles/base-project.elf.dir/Src/stm32f3xx_it.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/base-project.elf.dir/Src/stm32f3xx_it.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/Src/stm32f3xx_it.c.obj -MF CMakeFiles/base-project.elf.dir/Src/stm32f3xx_it.c.obj.d -o CMakeFiles/base-project.elf.dir/Src/stm32f3xx_it.c.obj -c /home/radion/CLionProjects/stm32/base-project/Src/stm32f3xx_it.c
-
-CMakeFiles/base-project.elf.dir/Src/stm32f3xx_it.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/Src/stm32f3xx_it.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/Src/stm32f3xx_it.c > CMakeFiles/base-project.elf.dir/Src/stm32f3xx_it.c.i
-
-CMakeFiles/base-project.elf.dir/Src/stm32f3xx_it.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/Src/stm32f3xx_it.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/Src/stm32f3xx_it.c -o CMakeFiles/base-project.elf.dir/Src/stm32f3xx_it.c.s
-
-CMakeFiles/base-project.elf.dir/Src/syscalls.c.obj: CMakeFiles/base-project.elf.dir/flags.make
-CMakeFiles/base-project.elf.dir/Src/syscalls.c.obj: /home/radion/CLionProjects/stm32/base-project/Src/syscalls.c
-CMakeFiles/base-project.elf.dir/Src/syscalls.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/base-project.elf.dir/Src/syscalls.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/Src/syscalls.c.obj -MF CMakeFiles/base-project.elf.dir/Src/syscalls.c.obj.d -o CMakeFiles/base-project.elf.dir/Src/syscalls.c.obj -c /home/radion/CLionProjects/stm32/base-project/Src/syscalls.c
-
-CMakeFiles/base-project.elf.dir/Src/syscalls.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/Src/syscalls.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/Src/syscalls.c > CMakeFiles/base-project.elf.dir/Src/syscalls.c.i
-
-CMakeFiles/base-project.elf.dir/Src/syscalls.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/Src/syscalls.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/Src/syscalls.c -o CMakeFiles/base-project.elf.dir/Src/syscalls.c.s
-
-CMakeFiles/base-project.elf.dir/Src/sysmem.c.obj: CMakeFiles/base-project.elf.dir/flags.make
-CMakeFiles/base-project.elf.dir/Src/sysmem.c.obj: /home/radion/CLionProjects/stm32/base-project/Src/sysmem.c
-CMakeFiles/base-project.elf.dir/Src/sysmem.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/base-project.elf.dir/Src/sysmem.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/Src/sysmem.c.obj -MF CMakeFiles/base-project.elf.dir/Src/sysmem.c.obj.d -o CMakeFiles/base-project.elf.dir/Src/sysmem.c.obj -c /home/radion/CLionProjects/stm32/base-project/Src/sysmem.c
-
-CMakeFiles/base-project.elf.dir/Src/sysmem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/Src/sysmem.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/Src/sysmem.c > CMakeFiles/base-project.elf.dir/Src/sysmem.c.i
-
-CMakeFiles/base-project.elf.dir/Src/sysmem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/Src/sysmem.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/Src/sysmem.c -o CMakeFiles/base-project.elf.dir/Src/sysmem.c.s
-
-CMakeFiles/base-project.elf.dir/Src/system_stm32f3xx.c.obj: CMakeFiles/base-project.elf.dir/flags.make
-CMakeFiles/base-project.elf.dir/Src/system_stm32f3xx.c.obj: /home/radion/CLionProjects/stm32/base-project/Src/system_stm32f3xx.c
-CMakeFiles/base-project.elf.dir/Src/system_stm32f3xx.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/base-project.elf.dir/Src/system_stm32f3xx.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/Src/system_stm32f3xx.c.obj -MF CMakeFiles/base-project.elf.dir/Src/system_stm32f3xx.c.obj.d -o CMakeFiles/base-project.elf.dir/Src/system_stm32f3xx.c.obj -c /home/radion/CLionProjects/stm32/base-project/Src/system_stm32f3xx.c
-
-CMakeFiles/base-project.elf.dir/Src/system_stm32f3xx.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/Src/system_stm32f3xx.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/Src/system_stm32f3xx.c > CMakeFiles/base-project.elf.dir/Src/system_stm32f3xx.c.i
-
-CMakeFiles/base-project.elf.dir/Src/system_stm32f3xx.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/Src/system_stm32f3xx.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/Src/system_stm32f3xx.c -o CMakeFiles/base-project.elf.dir/Src/system_stm32f3xx.c.s
-
-CMakeFiles/base-project.elf.dir/Startup/startup_stm32f303retx.s.obj: CMakeFiles/base-project.elf.dir/flags.make
-CMakeFiles/base-project.elf.dir/Startup/startup_stm32f303retx.s.obj: /home/radion/CLionProjects/stm32/base-project/Startup/startup_stm32f303retx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building ASM object CMakeFiles/base-project.elf.dir/Startup/startup_stm32f303retx.s.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/base-project.elf.dir/Startup/startup_stm32f303retx.s.obj -c /home/radion/CLionProjects/stm32/base-project/Startup/startup_stm32f303retx.s
-
-CMakeFiles/base-project.elf.dir/Startup/startup_stm32f303retx.s.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/base-project.elf.dir/Startup/startup_stm32f303retx.s.i"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/Startup/startup_stm32f303retx.s > CMakeFiles/base-project.elf.dir/Startup/startup_stm32f303retx.s.i
-
-CMakeFiles/base-project.elf.dir/Startup/startup_stm32f303retx.s.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/base-project.elf.dir/Startup/startup_stm32f303retx.s.s"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/Startup/startup_stm32f303retx.s -o CMakeFiles/base-project.elf.dir/Startup/startup_stm32f303retx.s.s
+CMakeFiles/base-project.elf.dir/src/error_handlers.c.obj: CMakeFiles/base-project.elf.dir/flags.make
+CMakeFiles/base-project.elf.dir/src/error_handlers.c.obj: /home/radion/CLionProjects/stm32/base-project/src/error_handlers.c
+CMakeFiles/base-project.elf.dir/src/error_handlers.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/base-project.elf.dir/src/error_handlers.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/src/error_handlers.c.obj -MF CMakeFiles/base-project.elf.dir/src/error_handlers.c.obj.d -o CMakeFiles/base-project.elf.dir/src/error_handlers.c.obj -c /home/radion/CLionProjects/stm32/base-project/src/error_handlers.c
+
+CMakeFiles/base-project.elf.dir/src/error_handlers.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/src/error_handlers.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/src/error_handlers.c > CMakeFiles/base-project.elf.dir/src/error_handlers.c.i
+
+CMakeFiles/base-project.elf.dir/src/error_handlers.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/src/error_handlers.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/src/error_handlers.c -o CMakeFiles/base-project.elf.dir/src/error_handlers.c.s
+
+CMakeFiles/base-project.elf.dir/src/main.c.obj: CMakeFiles/base-project.elf.dir/flags.make
+CMakeFiles/base-project.elf.dir/src/main.c.obj: /home/radion/CLionProjects/stm32/base-project/src/main.c
+CMakeFiles/base-project.elf.dir/src/main.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/base-project.elf.dir/src/main.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/src/main.c.obj -MF CMakeFiles/base-project.elf.dir/src/main.c.obj.d -o CMakeFiles/base-project.elf.dir/src/main.c.obj -c /home/radion/CLionProjects/stm32/base-project/src/main.c
+
+CMakeFiles/base-project.elf.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/src/main.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/src/main.c > CMakeFiles/base-project.elf.dir/src/main.c.i
+
+CMakeFiles/base-project.elf.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/src/main.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/src/main.c -o CMakeFiles/base-project.elf.dir/src/main.c.s
+
+CMakeFiles/base-project.elf.dir/src/system_config.c.obj: CMakeFiles/base-project.elf.dir/flags.make
+CMakeFiles/base-project.elf.dir/src/system_config.c.obj: /home/radion/CLionProjects/stm32/base-project/src/system_config.c
+CMakeFiles/base-project.elf.dir/src/system_config.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/base-project.elf.dir/src/system_config.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/src/system_config.c.obj -MF CMakeFiles/base-project.elf.dir/src/system_config.c.obj.d -o CMakeFiles/base-project.elf.dir/src/system_config.c.obj -c /home/radion/CLionProjects/stm32/base-project/src/system_config.c
+
+CMakeFiles/base-project.elf.dir/src/system_config.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/src/system_config.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/src/system_config.c > CMakeFiles/base-project.elf.dir/src/system_config.c.i
+
+CMakeFiles/base-project.elf.dir/src/system_config.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/src/system_config.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/src/system_config.c -o CMakeFiles/base-project.elf.dir/src/system_config.c.s
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj: CMakeFiles/base-project.elf.dir/flags.make
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj: /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj -MF CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj.d -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj -c /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c > CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.i
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.s
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj: CMakeFiles/base-project.elf.dir/flags.make
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj: /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj -MF CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj.d -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj -c /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c > CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.i
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.s
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj: CMakeFiles/base-project.elf.dir/flags.make
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj: /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj -MF CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj.d -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj -c /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c > CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.i
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.s
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj: CMakeFiles/base-project.elf.dir/flags.make
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj: /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj -MF CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj.d -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj -c /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c > CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.i
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.s
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj: CMakeFiles/base-project.elf.dir/flags.make
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj: /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj -MF CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj.d -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj -c /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c > CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.i
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.s
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj: CMakeFiles/base-project.elf.dir/flags.make
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj: /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj -MF CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj.d -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj -c /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c > CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.i
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.s
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj: CMakeFiles/base-project.elf.dir/flags.make
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj: /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj -MF CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj.d -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj -c /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c > CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.i
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.s
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj: CMakeFiles/base-project.elf.dir/flags.make
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj: /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj -MF CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj.d -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj -c /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c > CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.i
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.s
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj: CMakeFiles/base-project.elf.dir/flags.make
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj: /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj -MF CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj.d -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj -c /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c > CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.i
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.s
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj: CMakeFiles/base-project.elf.dir/flags.make
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj: /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj -MF CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj.d -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj -c /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c > CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.i
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.s
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj: CMakeFiles/base-project.elf.dir/flags.make
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj: /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj -MF CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj.d -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj -c /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c > CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.i
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.s
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj: CMakeFiles/base-project.elf.dir/flags.make
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj: /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj -MF CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj.d -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj -c /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c > CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.i
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.s
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj: CMakeFiles/base-project.elf.dir/flags.make
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj: /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj -MF CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj.d -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj -c /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c > CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.i
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.s
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj: CMakeFiles/base-project.elf.dir/flags.make
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj: /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj -MF CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj.d -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj -c /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c > CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.i
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.s
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj: CMakeFiles/base-project.elf.dir/flags.make
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj: /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj: CMakeFiles/base-project.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj -MF CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj.d -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj -c /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c > CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.i
+
+CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c -o CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.s
+
+CMakeFiles/base-project.elf.dir/vendor/startup/startup_stm32f303retx.s.obj: CMakeFiles/base-project.elf.dir/flags.make
+CMakeFiles/base-project.elf.dir/vendor/startup/startup_stm32f303retx.s.obj: /home/radion/CLionProjects/stm32/base-project/vendor/startup/startup_stm32f303retx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building ASM object CMakeFiles/base-project.elf.dir/vendor/startup/startup_stm32f303retx.s.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/base-project.elf.dir/vendor/startup/startup_stm32f303retx.s.obj -c /home/radion/CLionProjects/stm32/base-project/vendor/startup/startup_stm32f303retx.s
+
+CMakeFiles/base-project.elf.dir/vendor/startup/startup_stm32f303retx.s.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/base-project.elf.dir/vendor/startup/startup_stm32f303retx.s.i"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/radion/CLionProjects/stm32/base-project/vendor/startup/startup_stm32f303retx.s > CMakeFiles/base-project.elf.dir/vendor/startup/startup_stm32f303retx.s.i
+
+CMakeFiles/base-project.elf.dir/vendor/startup/startup_stm32f303retx.s.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/base-project.elf.dir/vendor/startup/startup_stm32f303retx.s.s"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/radion/CLionProjects/stm32/base-project/vendor/startup/startup_stm32f303retx.s -o CMakeFiles/base-project.elf.dir/vendor/startup/startup_stm32f303retx.s.s
 
 # Object files for target base-project.elf
 base__project_elf_OBJECTS = \
-"CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj" \
-"CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj" \
-"CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj" \
-"CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj" \
-"CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj" \
-"CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj" \
-"CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj" \
-"CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj" \
-"CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj" \
-"CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj" \
-"CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj" \
-"CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj" \
-"CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj" \
-"CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj" \
-"CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj" \
-"CMakeFiles/base-project.elf.dir/Src/main.c.obj" \
-"CMakeFiles/base-project.elf.dir/Src/stm32f3xx_hal_msp.c.obj" \
-"CMakeFiles/base-project.elf.dir/Src/stm32f3xx_it.c.obj" \
-"CMakeFiles/base-project.elf.dir/Src/syscalls.c.obj" \
-"CMakeFiles/base-project.elf.dir/Src/sysmem.c.obj" \
-"CMakeFiles/base-project.elf.dir/Src/system_stm32f3xx.c.obj" \
-"CMakeFiles/base-project.elf.dir/Startup/startup_stm32f303retx.s.obj"
+"CMakeFiles/base-project.elf.dir/src/error_handlers.c.obj" \
+"CMakeFiles/base-project.elf.dir/src/main.c.obj" \
+"CMakeFiles/base-project.elf.dir/src/system_config.c.obj" \
+"CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj" \
+"CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj" \
+"CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj" \
+"CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj" \
+"CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj" \
+"CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj" \
+"CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj" \
+"CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj" \
+"CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj" \
+"CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj" \
+"CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj" \
+"CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj" \
+"CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj" \
+"CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj" \
+"CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj" \
+"CMakeFiles/base-project.elf.dir/vendor/startup/startup_stm32f303retx.s.obj"
 
 # External object files for target base-project.elf
 base__project_elf_EXTERNAL_OBJECTS =
 
-base-project.elf: CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
-base-project.elf: CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
-base-project.elf: CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
-base-project.elf: CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj
-base-project.elf: CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj
-base-project.elf: CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj
-base-project.elf: CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
-base-project.elf: CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
-base-project.elf: CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
-base-project.elf: CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj
-base-project.elf: CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj
-base-project.elf: CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-base-project.elf: CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
-base-project.elf: CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-base-project.elf: CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
-base-project.elf: CMakeFiles/base-project.elf.dir/Src/main.c.obj
-base-project.elf: CMakeFiles/base-project.elf.dir/Src/stm32f3xx_hal_msp.c.obj
-base-project.elf: CMakeFiles/base-project.elf.dir/Src/stm32f3xx_it.c.obj
-base-project.elf: CMakeFiles/base-project.elf.dir/Src/syscalls.c.obj
-base-project.elf: CMakeFiles/base-project.elf.dir/Src/sysmem.c.obj
-base-project.elf: CMakeFiles/base-project.elf.dir/Src/system_stm32f3xx.c.obj
-base-project.elf: CMakeFiles/base-project.elf.dir/Startup/startup_stm32f303retx.s.obj
+base-project.elf: CMakeFiles/base-project.elf.dir/src/error_handlers.c.obj
+base-project.elf: CMakeFiles/base-project.elf.dir/src/main.c.obj
+base-project.elf: CMakeFiles/base-project.elf.dir/src/system_config.c.obj
+base-project.elf: CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+base-project.elf: CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+base-project.elf: CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
+base-project.elf: CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj
+base-project.elf: CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj
+base-project.elf: CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj
+base-project.elf: CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+base-project.elf: CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+base-project.elf: CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
+base-project.elf: CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj
+base-project.elf: CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj
+base-project.elf: CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+base-project.elf: CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+base-project.elf: CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+base-project.elf: CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+base-project.elf: CMakeFiles/base-project.elf.dir/vendor/startup/startup_stm32f303retx.s.obj
 base-project.elf: CMakeFiles/base-project.elf.dir/build.make
 base-project.elf: CMakeFiles/base-project.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking C executable base-project.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking C executable base-project.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/base-project.elf.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building /home/radion/CLionProjects/stm32/base-project/cmake-build-debug/base-project.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building /home/radion/CLionProjects/stm32/base-project/cmake-build-debug/base-project.bin"

@@ -6,5 +6,5 @@
 
 #IncludeRegexTransform: 
 
-/home/radion/CLionProjects/stm32/base-project/Startup/startup_stm32f303retx.s
+/home/radion/CLionProjects/stm32/base-project/vendor/startup/startup_stm32f303retx.s
 

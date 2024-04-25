@@ -129,517 +129,445 @@ base-project.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/build
 .PHONY : base-project.elf/fast
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.obj
+src/error_handlers.obj: src/error_handlers.c.obj
+.PHONY : src/error_handlers.obj
 
 # target to build an object file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+src/error_handlers.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/src/error_handlers.c.obj
+.PHONY : src/error_handlers.c.obj
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.i: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.i
+src/error_handlers.i: src/error_handlers.c.i
+.PHONY : src/error_handlers.i
 
 # target to preprocess a source file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.i
+src/error_handlers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/src/error_handlers.c.i
+.PHONY : src/error_handlers.c.i
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.s: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.s
+src/error_handlers.s: src/error_handlers.c.s
+.PHONY : src/error_handlers.s
 
 # target to generate assembly for a file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.s
+src/error_handlers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/src/error_handlers.c.s
+.PHONY : src/error_handlers.c.s
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.obj
+src/main.obj: src/main.c.obj
+.PHONY : src/main.obj
 
 # target to build an object file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+src/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/src/main.c.obj
+.PHONY : src/main.c.obj
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.i: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.i
+src/main.i: src/main.c.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.i
+src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/src/main.c.i
+.PHONY : src/main.c.i
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.s: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.s
+src/main.s: src/main.c.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.s
+src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/src/main.c.s
+.PHONY : src/main.c.s
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.obj
+src/system_config.obj: src/system_config.c.obj
+.PHONY : src/system_config.obj
 
 # target to build an object file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
+src/system_config.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/src/system_config.c.obj
+.PHONY : src/system_config.c.obj
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.i: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.i
+src/system_config.i: src/system_config.c.i
+.PHONY : src/system_config.i
 
 # target to preprocess a source file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.i
+src/system_config.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/src/system_config.c.i
+.PHONY : src/system_config.c.i
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.s: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.s
+src/system_config.s: src/system_config.c.s
+.PHONY : src/system_config.s
 
 # target to generate assembly for a file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.s
+src/system_config.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/src/system_config.c.s
+.PHONY : src/system_config.c.s
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.obj: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.obj
 
 # target to build an object file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.i: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.i: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.i
 
 # target to preprocess a source file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.i
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.s: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.s: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.s
 
 # target to generate assembly for a file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.s
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.obj: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.obj
 
 # target to build an object file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.i: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.i: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.i
 
 # target to preprocess a source file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.i
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.s: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.s: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.s
 
 # target to generate assembly for a file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.s
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.obj: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.obj
 
 # target to build an object file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.i: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.i: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.i
 
 # target to preprocess a source file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.i
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.s: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.s: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.s
 
 # target to generate assembly for a file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.s
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.obj: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.obj
 
 # target to build an object file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.i: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.i: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.i
 
 # target to preprocess a source file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.i
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.s: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.s: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.s
 
 # target to generate assembly for a file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.s
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.obj: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.obj
 
 # target to build an object file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.i: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.i: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.i
 
 # target to preprocess a source file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.i
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.s: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.s: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.s
 
 # target to generate assembly for a file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.s
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.obj: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.obj
 
 # target to build an object file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.i: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.i: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.i
 
 # target to preprocess a source file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.i
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.s: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.s: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.s
 
 # target to generate assembly for a file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.s
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.obj: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.obj
 
 # target to build an object file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.i: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.i: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.i
 
 # target to preprocess a source file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.i
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.s: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.s: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.s
 
 # target to generate assembly for a file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.s
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.obj: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.obj
 
 # target to build an object file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.i: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.i: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.i
 
 # target to preprocess a source file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.i
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.s: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.s: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.s
 
 # target to generate assembly for a file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.s
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.obj: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.obj
 
 # target to build an object file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.i: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.i: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.i
 
 # target to preprocess a source file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.i
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.s: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.s: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.s
 
 # target to generate assembly for a file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.s
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.obj: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.obj
 
 # target to build an object file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.i: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.i: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.i
 
 # target to preprocess a source file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.i
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.s: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.s: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.s
 
 # target to generate assembly for a file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.s
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.obj: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.obj
 
 # target to build an object file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.i: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.i: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.i
 
 # target to preprocess a source file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.i
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.s: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.s: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.s
 
 # target to generate assembly for a file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.s
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.obj: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.obj
 
 # target to build an object file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.i: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.i: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.i
 
 # target to preprocess a source file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.i
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.i
 
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.s: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.s: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.s
 
 # target to generate assembly for a file
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.s
-.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.s
 
-Src/main.obj: Src/main.c.obj
-.PHONY : Src/main.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.obj: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.obj
 
 # target to build an object file
-Src/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Src/main.c.obj
-.PHONY : Src/main.c.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
 
-Src/main.i: Src/main.c.i
-.PHONY : Src/main.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.i: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.i
 
 # target to preprocess a source file
-Src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Src/main.c.i
-.PHONY : Src/main.c.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.i
 
-Src/main.s: Src/main.c.s
-.PHONY : Src/main.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.s: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.s
 
 # target to generate assembly for a file
-Src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Src/main.c.s
-.PHONY : Src/main.c.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.s
 
-Src/stm32f3xx_hal_msp.obj: Src/stm32f3xx_hal_msp.c.obj
-.PHONY : Src/stm32f3xx_hal_msp.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.obj: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.obj
 
 # target to build an object file
-Src/stm32f3xx_hal_msp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Src/stm32f3xx_hal_msp.c.obj
-.PHONY : Src/stm32f3xx_hal_msp.c.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
 
-Src/stm32f3xx_hal_msp.i: Src/stm32f3xx_hal_msp.c.i
-.PHONY : Src/stm32f3xx_hal_msp.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.i: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.i
 
 # target to preprocess a source file
-Src/stm32f3xx_hal_msp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Src/stm32f3xx_hal_msp.c.i
-.PHONY : Src/stm32f3xx_hal_msp.c.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.i
 
-Src/stm32f3xx_hal_msp.s: Src/stm32f3xx_hal_msp.c.s
-.PHONY : Src/stm32f3xx_hal_msp.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.s: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.s
 
 # target to generate assembly for a file
-Src/stm32f3xx_hal_msp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Src/stm32f3xx_hal_msp.c.s
-.PHONY : Src/stm32f3xx_hal_msp.c.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.s
 
-Src/stm32f3xx_it.obj: Src/stm32f3xx_it.c.obj
-.PHONY : Src/stm32f3xx_it.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.obj: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.obj
 
 # target to build an object file
-Src/stm32f3xx_it.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Src/stm32f3xx_it.c.obj
-.PHONY : Src/stm32f3xx_it.c.obj
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
 
-Src/stm32f3xx_it.i: Src/stm32f3xx_it.c.i
-.PHONY : Src/stm32f3xx_it.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.i: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.i
 
 # target to preprocess a source file
-Src/stm32f3xx_it.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Src/stm32f3xx_it.c.i
-.PHONY : Src/stm32f3xx_it.c.i
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.i
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.i
 
-Src/stm32f3xx_it.s: Src/stm32f3xx_it.c.s
-.PHONY : Src/stm32f3xx_it.s
-
-# target to generate assembly for a file
-Src/stm32f3xx_it.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Src/stm32f3xx_it.c.s
-.PHONY : Src/stm32f3xx_it.c.s
-
-Src/syscalls.obj: Src/syscalls.c.obj
-.PHONY : Src/syscalls.obj
-
-# target to build an object file
-Src/syscalls.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Src/syscalls.c.obj
-.PHONY : Src/syscalls.c.obj
-
-Src/syscalls.i: Src/syscalls.c.i
-.PHONY : Src/syscalls.i
-
-# target to preprocess a source file
-Src/syscalls.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Src/syscalls.c.i
-.PHONY : Src/syscalls.c.i
-
-Src/syscalls.s: Src/syscalls.c.s
-.PHONY : Src/syscalls.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.s: vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.s
 
 # target to generate assembly for a file
-Src/syscalls.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Src/syscalls.c.s
-.PHONY : Src/syscalls.c.s
+vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.s
+.PHONY : vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.s
 
-Src/sysmem.obj: Src/sysmem.c.obj
-.PHONY : Src/sysmem.obj
-
-# target to build an object file
-Src/sysmem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Src/sysmem.c.obj
-.PHONY : Src/sysmem.c.obj
-
-Src/sysmem.i: Src/sysmem.c.i
-.PHONY : Src/sysmem.i
-
-# target to preprocess a source file
-Src/sysmem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Src/sysmem.c.i
-.PHONY : Src/sysmem.c.i
-
-Src/sysmem.s: Src/sysmem.c.s
-.PHONY : Src/sysmem.s
-
-# target to generate assembly for a file
-Src/sysmem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Src/sysmem.c.s
-.PHONY : Src/sysmem.c.s
-
-Src/system_stm32f3xx.obj: Src/system_stm32f3xx.c.obj
-.PHONY : Src/system_stm32f3xx.obj
+vendor/startup/startup_stm32f303retx.obj: vendor/startup/startup_stm32f303retx.s.obj
+.PHONY : vendor/startup/startup_stm32f303retx.obj
 
 # target to build an object file
-Src/system_stm32f3xx.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Src/system_stm32f3xx.c.obj
-.PHONY : Src/system_stm32f3xx.c.obj
-
-Src/system_stm32f3xx.i: Src/system_stm32f3xx.c.i
-.PHONY : Src/system_stm32f3xx.i
-
-# target to preprocess a source file
-Src/system_stm32f3xx.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Src/system_stm32f3xx.c.i
-.PHONY : Src/system_stm32f3xx.c.i
-
-Src/system_stm32f3xx.s: Src/system_stm32f3xx.c.s
-.PHONY : Src/system_stm32f3xx.s
-
-# target to generate assembly for a file
-Src/system_stm32f3xx.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Src/system_stm32f3xx.c.s
-.PHONY : Src/system_stm32f3xx.c.s
-
-Startup/startup_stm32f303retx.obj: Startup/startup_stm32f303retx.s.obj
-.PHONY : Startup/startup_stm32f303retx.obj
-
-# target to build an object file
-Startup/startup_stm32f303retx.s.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/Startup/startup_stm32f303retx.s.obj
-.PHONY : Startup/startup_stm32f303retx.s.obj
+vendor/startup/startup_stm32f303retx.s.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/base-project.elf.dir/build.make CMakeFiles/base-project.elf.dir/vendor/startup/startup_stm32f303retx.s.obj
+.PHONY : vendor/startup/startup_stm32f303retx.s.obj
 
 # Help Target
 help:
@@ -650,70 +578,61 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... base-project.elf"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.obj"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.i"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.s"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.obj"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.i"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.s"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.obj"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.i"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.s"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.obj"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.i"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.s"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.obj"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.i"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.s"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.obj"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.i"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.s"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.obj"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.i"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.s"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.obj"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.i"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.s"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.obj"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.i"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.s"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.obj"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.i"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.s"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.obj"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.i"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.s"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.obj"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.i"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.s"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.obj"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.i"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.s"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.obj"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.i"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.s"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.obj"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.i"
-	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.s"
-	@echo "... Src/main.obj"
-	@echo "... Src/main.i"
-	@echo "... Src/main.s"
-	@echo "... Src/stm32f3xx_hal_msp.obj"
-	@echo "... Src/stm32f3xx_hal_msp.i"
-	@echo "... Src/stm32f3xx_hal_msp.s"
-	@echo "... Src/stm32f3xx_it.obj"
-	@echo "... Src/stm32f3xx_it.i"
-	@echo "... Src/stm32f3xx_it.s"
-	@echo "... Src/syscalls.obj"
-	@echo "... Src/syscalls.i"
-	@echo "... Src/syscalls.s"
-	@echo "... Src/sysmem.obj"
-	@echo "... Src/sysmem.i"
-	@echo "... Src/sysmem.s"
-	@echo "... Src/system_stm32f3xx.obj"
-	@echo "... Src/system_stm32f3xx.i"
-	@echo "... Src/system_stm32f3xx.s"
-	@echo "... Startup/startup_stm32f303retx.obj"
+	@echo "... src/error_handlers.obj"
+	@echo "... src/error_handlers.i"
+	@echo "... src/error_handlers.s"
+	@echo "... src/main.obj"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/system_config.obj"
+	@echo "... src/system_config.i"
+	@echo "... src/system_config.s"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.obj"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.i"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.s"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.obj"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.i"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.s"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.obj"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.i"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.s"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.obj"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.i"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.s"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.obj"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.i"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.s"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.obj"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.i"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.s"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.obj"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.i"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.s"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.obj"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.i"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.s"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.obj"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.i"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.s"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.obj"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.i"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.s"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.obj"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.i"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.s"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.obj"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.i"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.s"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.obj"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.i"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.s"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.obj"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.i"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.s"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.obj"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.i"
+	@echo "... vendor/drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.s"
+	@echo "... vendor/startup/startup_stm32f303retx.obj"
 .PHONY : help
 
 

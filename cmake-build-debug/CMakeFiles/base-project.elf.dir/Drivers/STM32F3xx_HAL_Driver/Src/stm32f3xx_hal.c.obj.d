@@ -1,7 +1,7 @@
 CMakeFiles/base-project.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj: \
  /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c \
  /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h \
- /home/radion/CLionProjects/stm32/base-project/Inc/stm32f3xx_hal_conf.h \
+ /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Inc/../../stm32f3xx_hal_conf.h \
  /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h \
  /home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h \
  /home/radion/CLionProjects/stm32/base-project/Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h \

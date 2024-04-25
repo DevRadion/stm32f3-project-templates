@@ -5,13 +5,13 @@
 # compile C with /usr/bin/arm-none-eabi-gcc
 ASM_DEFINES = -DDEBUG -DSTM32F303xE -DUSE_HAL_DRIVER
 
-ASM_INCLUDES = -I/home/radion/CLionProjects/stm32/base-project/Inc -I/home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Inc -I/home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/home/radion/CLionProjects/stm32/base-project/Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/home/radion/CLionProjects/stm32/base-project/Drivers/CMSIS/Include
+ASM_INCLUDES = -I/home/radion/CLionProjects/stm32/base-project/include -I/home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Inc -I/home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/home/radion/CLionProjects/stm32/base-project/vendor/drivers/CMSIS/Device/ST/STM32F3xx/Include -I/home/radion/CLionProjects/stm32/base-project/vendor/drivers/CMSIS/Include
 
 ASM_FLAGS = -g -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -x assembler-with-cpp -Og -g
 
 C_DEFINES = -DDEBUG -DSTM32F303xE -DUSE_HAL_DRIVER
 
-C_INCLUDES = -I/home/radion/CLionProjects/stm32/base-project/Inc -I/home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Inc -I/home/radion/CLionProjects/stm32/base-project/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/home/radion/CLionProjects/stm32/base-project/Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/home/radion/CLionProjects/stm32/base-project/Drivers/CMSIS/Include
+C_INCLUDES = -I/home/radion/CLionProjects/stm32/base-project/include -I/home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Inc -I/home/radion/CLionProjects/stm32/base-project/vendor/drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/home/radion/CLionProjects/stm32/base-project/vendor/drivers/CMSIS/Device/ST/STM32F3xx/Include -I/home/radion/CLionProjects/stm32/base-project/vendor/drivers/CMSIS/Include
 
 C_FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
 
