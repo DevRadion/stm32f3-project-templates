@@ -1,3 +1,0 @@
-/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles/base-project.elf.dir
-/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/radion/CLionProjects/stm32/base-project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
