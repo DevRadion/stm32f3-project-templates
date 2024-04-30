@@ -1,6 +1,3 @@
-//
-// Created by radion on 4/25/24.
-//
 #include "system_config.h"
 
 void SystemInit(void) {

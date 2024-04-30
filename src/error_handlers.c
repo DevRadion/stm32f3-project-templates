@@ -1,7 +1,3 @@
-//
-// Created by radion on 4/25/24.
-//
-
 void Error_Handler(void)
 {
     while (1)
