@@ -49,9 +49,12 @@ else ()
     add_compile_options(-Og -g)
 endif ()
 
-include_directories(include)
+include_directories(
+        include
+        vendor/cmsis/include
+)
 
-add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F303xE)
+add_definitions(-DDEBUG -DSTM32F303xE)
 
 file(GLOB_RECURSE SOURCES "vendor/startup/*.*" "src/*.*" )
 
